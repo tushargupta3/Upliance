@@ -7,7 +7,7 @@ import TextEditor from './TextEditor/TextEditor';
 // eslint-disable-next-line no-unused-vars
 import { ToastContainer, toast } from 'react-toastify';
 
-function App() {
+function App () {
   const [count, Setcount] = useState(() => {
     const storedCount = localStorage.getItem('count');
     return storedCount ? parseInt(storedCount) : 0;
@@ -36,3 +36,4 @@ function App() {
     </>
   )
 }
+export default App
