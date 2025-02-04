@@ -1,5 +1,5 @@
 .userfrom{
-    border: 1px solid white;
+    border: 1px solid #1bd3e0;
     border-radius: 20px;
     width: 45%;
     min-width: 350px;
@@ -12,7 +12,7 @@
     border: 1px solid white;
     border-radius: 10px;
     padding: 10px;
-    color: white;
+    color: rgb(218, 18, 18);
     font-weight: 600;
     font-size: 16px;
     margin: 5px 0px;
@@ -27,6 +27,6 @@
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
-    /* color: white; */
-    /* background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516); */
+     color: white; 
+    background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516); 
 }

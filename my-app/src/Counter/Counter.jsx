@@ -15,7 +15,7 @@ export default function Counter({ count, change }) {
     }
 
     function increment() {
-        if (count < 20) {
+        if (count < 30) {
             change(prev => prev + 1);
         }
     }
@@ -28,7 +28,7 @@ export default function Counter({ count, change }) {
                     <br />
                     Counter
                 </h1>
-                <p>limit 0 - 20</p>
+                <p>limit 0 - 30</p>
             </span>
             <div className={styles.btn_section}>
                 <button className={styles.decrease} onClick={decrement}>-</button>

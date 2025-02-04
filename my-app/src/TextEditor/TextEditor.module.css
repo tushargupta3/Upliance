@@ -1,5 +1,5 @@
 .textEditor{
-    border: 1px solid white;
+    border: 1px solid #1bd3e0;
     border-radius: 20px;
     width: 45%;
     /* height: 300px; */
@@ -9,7 +9,7 @@
 }
 .jeditor{
     background: transparent;
-    color: black;
+    color: rgb(147, 240, 105);
     font-weight: 400;
     text-align: left;
     margin: 0px 10px;
