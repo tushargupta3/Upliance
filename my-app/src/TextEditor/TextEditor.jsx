@@ -1,7 +1,10 @@
+/* eslint-disable react/prop-types */
+
+// eslint-disable-next-line no-unused-vars
 import React, { useEffect, useRef, useState } from "react";
 import styles from './TextEditor.module.css'
 import JoditEditor from 'jodit-react';
-import Background from "../Background/Background";
+// import Background from "../Background/Background";
 export default function TextEditor({curruser}){
     const editor = useRef(null);
 	const [content, setContent] = useState();
